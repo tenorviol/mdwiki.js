@@ -1,0 +1,37 @@
+#crumbs {
+  background-color: #eee;
+  padding: 3px;
+  margin-bottom: 25px;
+}
+
+#crumbs ul {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline;
+  border: none;
+} 
+
+#crumbs ul li {
+  margin-left: 0;
+  padding-left: 2px;
+  border: none;
+  list-style: none;
+  display: inline;
+}
+
+#crumbs ul li:before {
+  content: "\0020 \0020 \0020 / \0020";
+}
+
+#crumbs ul li.first:before {
+  content: " ";
+}
+
+#crumbs a {
+  font-family: Arial;
+  text-decoration: none;
+}
+
+#directory li {
+  margin-top: 0;
+}
